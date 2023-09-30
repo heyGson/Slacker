@@ -1,0 +1,30 @@
+.chat-box-wrapper {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 70px;
+}
+
+.chat-box-wrapper input {
+  height: 50px;
+  width: 80%;
+  caret-color: #000;
+  padding-left: 15px;
+  font-size: 16px;
+  border: 0.5px solid #fff;
+  position: absolute;
+  bottom: 30px;
+}
+
+.chat-box-wrapper input::placeholder {
+  padding-left: 10px;
+}
+
+.chat-box-wrapper img {
+  position: absolute;
+  right: 145px;
+  bottom: 40px;
+}
